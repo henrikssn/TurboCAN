@@ -1,0 +1,4 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C21","100uF","CP_Elec_8x10",35.700000,-48.550000,270.000000,bottom
+"J1","USB_C_Receptacle_USB2.0","USB_C_Receptacle_HRO_TYPE-C-31-M-12",42.500000,-16.500000,0.000000,bottom
+"REF**","VoronLogo","VoronLogo",36.000000,-28.000000,0.000000,bottom
