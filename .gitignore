@@ -4,8 +4,8 @@
 *-rescue.lib
 *-rescue.dcm
 *-bak
-sym-lib-table
 fp-info-cache
 *.zip
 _autosave*
 turbocan.code-workspace
+*.log

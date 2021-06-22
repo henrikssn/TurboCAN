@@ -1,0 +1,2 @@
+(sym_lib_table    (lib (name archive)(type Legacy)(uri "${KIPRJMOD}/turbocan-archive.lib")(options "")(descr ""))
+  (lib (name afterburner-can-board-rescue)(type Legacy)(uri ${KIPRJMOD}/afterburner-can-board-rescue.lib)(options "")(descr ""))  (lib (name turbocan-rescue)(type Legacy)(uri ${KIPRJMOD}/turbocan-rescue.lib)(options "")(descr "")))

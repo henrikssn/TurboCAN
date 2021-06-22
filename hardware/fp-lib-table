@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name turbocan)(type KiCad)(uri ${KIPRJMOD}/turbocan.pretty)(options "")(descr ""))
+)

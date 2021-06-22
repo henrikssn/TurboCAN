@@ -28,7 +28,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 1200 9950 1550
 $Comp
-L power:+3.3V #PWR041
+L archive:power_+3.3V #PWR041
 U 1 1 606F40D9
 P 9950 1150
 F 0 "#PWR041" H 9950 1000 50  0001 C CNN
@@ -100,7 +100,7 @@ Wire Wire Line
 	10050 4700 10050 4550
 Connection ~ 9950 4700
 $Comp
-L power:GND #PWR042
+L archive:power_GND #PWR042
 U 1 1 606F9D41
 P 9950 4800
 F 0 "#PWR042" H 9950 4550 50  0001 C CNN
@@ -113,7 +113,7 @@ $EndComp
 Wire Wire Line
 	9950 4800 9950 4700
 $Comp
-L power:+3.3V #PWR07
+L archive:power_+3.3V #PWR07
 U 1 1 606FE0A5
 P 1750 6950
 F 0 "#PWR07" H 1750 6800 50  0001 C CNN
@@ -124,7 +124,7 @@ F 3 "" H 1750 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1
+L archive:Device_C_Small C1
 U 1 1 606FE66C
 P 1750 7050
 F 0 "C1" H 1842 7096 50  0000 L CNN
@@ -136,7 +136,7 @@ F 4 "C15850" H 1750 7050 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:AP2127N-3.3 U1
+L archive:Regulator_Linear_AP2127N-3.3 U1
 U 1 1 606FFFD7
 P 1300 6950
 F 0 "U1" H 1300 7192 50  0000 C CNN
@@ -155,7 +155,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 7250 1750 7150
 $Comp
-L power:GND #PWR08
+L archive:power_GND #PWR08
 U 1 1 6070488A
 P 1750 7250
 F 0 "#PWR08" H 1750 7000 50  0001 C CNN
@@ -167,7 +167,7 @@ F 3 "" H 1750 7250 50  0001 C CNN
 $EndComp
 Connection ~ 1750 7250
 $Comp
-L power:+5V #PWR02
+L archive:power_+5V #PWR02
 U 1 1 60706425
 P 900 6950
 F 0 "#PWR02" H 900 6800 50  0001 C CNN
@@ -182,7 +182,7 @@ Wire Wire Line
 Text Notes 900  6500 0    79   ~ 0
 3.3V REGULATOR
 $Comp
-L user:TPS54331 U4
+L archive:user_TPS54331 U4
 U 1 1 60709D36
 P 4300 6500
 F 0 "U4" H 4300 6515 50  0000 C CNN
@@ -194,7 +194,7 @@ F 4 "C9865" H 4300 6500 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L archive:Device_C_Small C6
 U 1 1 6070ACCC
 P 3400 6950
 F 0 "C6" V 3350 6800 50  0000 C CNN
@@ -206,7 +206,7 @@ F 4 "C15195" H 3400 6950 50  0001 C CNN "LCSC Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C5
+L archive:Device_C_Small C5
 U 1 1 6070BD39
 P 2800 7050
 F 0 "C5" H 2800 7150 50  0000 L CNN
@@ -218,7 +218,7 @@ F 4 "C15850" H 2800 7050 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR012
+L archive:power_+24V #PWR012
 U 1 1 6070D16E
 P 2500 6650
 F 0 "#PWR012" H 2500 6500 50  0001 C CNN
@@ -229,7 +229,7 @@ F 3 "" H 2500 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R6
+L archive:Device_R_Small R6
 U 1 1 6070DE0B
 P 3450 7150
 F 0 "R6" H 3509 7196 50  0000 L CNN
@@ -241,7 +241,7 @@ F 4 "C36871" H 3450 7150 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C8
+L archive:Device_C_Small C8
 U 1 1 6070E9BE
 P 3850 7300
 F 0 "C8" H 3942 7346 50  0000 L CNN
@@ -253,7 +253,7 @@ F 4 "C1542" H 3850 7300 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C7
+L archive:Device_C_Small C7
 U 1 1 6071280D
 P 3450 7350
 F 0 "C7" H 3542 7396 50  0000 L CNN
@@ -282,7 +282,7 @@ Wire Wire Line
 	4700 7450 4700 7050
 Connection ~ 3850 7450
 $Comp
-L power:GND #PWR022
+L archive:power_GND #PWR022
 U 1 1 60716961
 P 4300 7450
 F 0 "#PWR022" H 4300 7200 50  0001 C CNN
@@ -296,7 +296,7 @@ Connection ~ 4300 7450
 Wire Wire Line
 	4300 7450 4700 7450
 $Comp
-L dk_Diodes-Rectifiers-Single:SS14 D3
+L archive:dk_Diodes-Rectifiers-Single_SS14 D3
 U 1 1 60716E00
 P 4900 7200
 F 0 "D3" V 4904 7288 50  0000 L CNN
@@ -317,7 +317,7 @@ F 13 "C22452" H 4900 7200 50  0001 C CNN "LCSC Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C9
+L archive:Device_C_Small C9
 U 1 1 6071876A
 P 4800 6850
 F 0 "C9" V 4750 7050 50  0000 C CNN
@@ -341,7 +341,7 @@ Wire Wire Line
 	4900 6750 4900 6850
 Connection ~ 4900 6850
 $Comp
-L Device:L_Small L1
+L archive:Device_L_Small L1
 U 1 1 6071D843
 P 5150 6750
 F 0 "L1" V 5335 6750 50  0000 C CNN
@@ -356,7 +356,7 @@ Wire Wire Line
 	4900 6750 5050 6750
 Connection ~ 4900 6750
 $Comp
-L Device:R_Small R11
+L archive:Device_R_Small R11
 U 1 1 6071FB43
 P 5350 7100
 F 0 "R11" H 5409 7146 50  0000 L CNN
@@ -371,7 +371,7 @@ Connection ~ 4900 7450
 Wire Wire Line
 	4700 6950 5350 6950
 $Comp
-L Device:R_Small R10
+L archive:Device_R_Small R10
 U 1 1 60722B92
 P 5350 6850
 F 0 "R10" H 5409 6896 50  0000 L CNN
@@ -385,7 +385,7 @@ $EndComp
 Wire Wire Line
 	5250 6750 5350 6750
 $Comp
-L Device:C_Small C13
+L archive:Device_C_Small C13
 U 1 1 60724150
 P 5650 7100
 F 0 "C13" H 5650 7200 50  0000 L CNN
@@ -402,7 +402,7 @@ Wire Wire Line
 	5650 7000 5650 6750
 Connection ~ 5350 6750
 $Comp
-L power:+5V #PWR032
+L archive:power_+5V #PWR032
 U 1 1 6073007E
 P 6050 6700
 F 0 "#PWR032" H 6050 6550 50  0001 C CNN
@@ -426,7 +426,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 6850 3050 6850
 $Comp
-L Device:R_Small R4
+L archive:Device_R_Small R4
 U 1 1 6074DD49
 P 3050 6750
 F 0 "R4" H 3109 6796 50  0000 L CNN
@@ -446,7 +446,7 @@ Wire Wire Line
 	3050 6850 3050 7100
 Connection ~ 3050 6850
 $Comp
-L Device:R_Small R5
+L archive:Device_R_Small R5
 U 1 1 60754FBA
 P 3050 7200
 F 0 "R5" H 3109 7246 50  0000 L CNN
@@ -468,7 +468,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 6750 5850 6750
 $Comp
-L Device:C_Small C14
+L archive:Device_C_Small C14
 U 1 1 6075AFB8
 P 5850 7100
 F 0 "C14" H 5850 7200 50  0000 L CNN
@@ -482,7 +482,7 @@ $EndComp
 Wire Wire Line
 	5850 7450 5850 7200
 $Comp
-L Device:C_Small C15
+L archive:Device_C_Small C15
 U 1 1 6075CBE4
 P 6050 7100
 F 0 "C15" H 6050 7200 50  0000 L CNN
@@ -505,7 +505,7 @@ Connection ~ 5850 7450
 Wire Wire Line
 	5850 7450 6050 7450
 $Comp
-L Device:C_Small C4
+L archive:Device_C_Small C4
 U 1 1 607610D1
 P 2500 7050
 F 0 "C4" H 2500 7150 50  0000 L CNN
@@ -536,7 +536,7 @@ Connection ~ 2800 6650
 Wire Wire Line
 	2800 6650 3050 6650
 $Comp
-L power:GND #PWR01
+L archive:power_GND #PWR01
 U 1 1 6076D950
 P 800 5950
 F 0 "#PWR01" H 800 5700 50  0001 C CNN
@@ -547,7 +547,7 @@ F 3 "" H 800 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L archive:power_GND #PWR04
 U 1 1 6076DE61
 P 1100 5950
 F 0 "#PWR04" H 1100 5700 50  0001 C CNN
@@ -558,7 +558,7 @@ F 3 "" H 1100 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR010
+L archive:power_+5V #PWR010
 U 1 1 607700EA
 P 2250 4400
 F 0 "#PWR010" H 2250 4250 50  0001 C CNN
@@ -573,7 +573,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 4450 2100 4450
 $Comp
-L Diode:BAT42W-V D1
+L archive:Diode_BAT42W-V D1
 U 1 1 6077305C
 P 1950 4450
 F 0 "D1" H 1950 4234 50  0000 C CNN
@@ -585,7 +585,7 @@ F 4 "C8598" H 1950 4450 50  0001 C CNN "LCSC Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R2
+L archive:Device_R_Small R2
 U 1 1 60774F8A
 P 1800 4750
 F 0 "R2" V 1700 4750 50  0000 C CNN
@@ -611,7 +611,7 @@ Connection ~ 1700 5200
 Wire Wire Line
 	1700 5200 1700 5250
 $Comp
-L Device:R_Small R1
+L archive:Device_R_Small R1
 U 1 1 60780D5A
 P 1800 4650
 F 0 "R1" V 1700 4650 50  0000 C CNN
@@ -623,7 +623,7 @@ F 4 "C25905" H 1800 4650 50  0001 C CNN "LCSC Part Number"
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR09
+L archive:power_GND #PWR09
 U 1 1 60785C60
 P 2100 4800
 F 0 "#PWR09" H 2100 4550 50  0001 C CNN
@@ -655,7 +655,7 @@ USBDM
 Text GLabel 1750 5200 2    50   Input ~ 0
 USBDP
 $Comp
-L Interface_CAN_LIN:SN65HVD230 U3
+L archive:Interface_CAN_LIN_SN65HVD230 U3
 U 1 1 6079CBC2
 P 3550 5100
 F 0 "U3" H 3850 5450 50  0000 C CNN
@@ -672,7 +672,7 @@ Text GLabel 3150 5100 0    50   Input ~ 0
 CANRX
 NoConn ~ 3150 5200
 $Comp
-L Device:R_Small R3
+L archive:Device_R_Small R3
 U 1 1 607A80A5
 P 3000 5400
 F 0 "R3" H 3059 5446 50  0000 L CNN
@@ -688,7 +688,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 5500 3550 5500
 $Comp
-L power:GND #PWR019
+L archive:power_GND #PWR019
 U 1 1 607AE6B6
 P 3550 5500
 F 0 "#PWR019" H 3550 5250 50  0001 C CNN
@@ -700,7 +700,7 @@ F 3 "" H 3550 5500 50  0001 C CNN
 $EndComp
 Connection ~ 3550 5500
 $Comp
-L Device:C_Small C3
+L archive:Device_C_Small C3
 U 1 1 607AEBB6
 P 2500 5200
 F 0 "C3" H 2592 5246 50  0000 L CNN
@@ -721,7 +721,7 @@ Wire Wire Line
 	2500 5500 3000 5500
 Connection ~ 3000 5500
 $Comp
-L power:+3.3V #PWR018
+L archive:power_+3.3V #PWR018
 U 1 1 607B5B73
 P 3550 4800
 F 0 "#PWR018" H 3550 4650 50  0001 C CNN
@@ -739,7 +739,7 @@ CANH
 Text Notes 3550 4450 0    79   ~ 0
 CAN TRANSCEIVER
 $Comp
-L Connector:Conn_01x03_Male J14
+L archive:Connector_Conn_01x03_Male J14
 U 1 1 607C2A48
 P 4700 2600
 F 0 "J14" H 4808 2881 50  0000 C CNN
@@ -750,7 +750,7 @@ F 3 "~" H 4700 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR035
+L archive:power_+24V #PWR035
 U 1 1 607CD711
 P 4550 2200
 F 0 "#PWR035" H 4550 2050 50  0001 C CNN
@@ -765,7 +765,7 @@ PROBEZ
 Wire Wire Line
 	4950 4000 5100 4000
 $Comp
-L Connector:Conn_01x02_Male J9
+L archive:Connector_Conn_01x02_Male J9
 U 1 1 607E6E64
 P 4750 3900
 F 0 "J9" H 4858 4081 50  0000 C CNN
@@ -776,7 +776,7 @@ F 3 "~" H 4750 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C12
+L archive:Device_C_Small C12
 U 1 1 607E7D55
 P 5250 4050
 F 0 "C12" H 5342 4096 50  0000 L CNN
@@ -793,7 +793,7 @@ Wire Wire Line
 	5100 4150 5100 4200
 Connection ~ 5100 4150
 $Comp
-L Device:R_Small R9
+L archive:Device_R_Small R9
 U 1 1 607F0ABE
 P 5250 3750
 F 0 "R9" H 5309 3796 50  0000 L CNN
@@ -807,7 +807,7 @@ $EndComp
 Wire Wire Line
 	4950 3900 5250 3900
 $Comp
-L power:VDDA #PWR031
+L archive:power_VDDA #PWR031
 U 1 1 607F56BC
 P 5250 3650
 F 0 "#PWR031" H 5250 3500 50  0001 C CNN
@@ -818,7 +818,7 @@ F 3 "" H 5250 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDDA #PWR043
+L archive:power_VDDA #PWR043
 U 1 1 607F5E13
 P 10050 1550
 F 0 "#PWR043" H 10050 1400 50  0001 C CNN
@@ -842,7 +842,7 @@ TH0
 Text Notes 4600 3400 0    79   ~ 0
 HOTEND THERMISTOR
 $Comp
-L Connector:Conn_01x03_Male J7
+L archive:Connector_Conn_01x03_Male J7
 U 1 1 60824CB2
 P 4700 1400
 F 0 "J7" H 4808 1681 50  0000 C CNN
@@ -853,7 +853,7 @@ F 3 "~" H 4700 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR028
+L archive:power_+5V #PWR028
 U 1 1 60825764
 P 5050 1200
 F 0 "#PWR028" H 5050 1050 50  0001 C CNN
@@ -868,7 +868,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 1400 5000 1400
 $Comp
-L power:GND #PWR027
+L archive:power_GND #PWR027
 U 1 1 6083FFFE
 P 5000 2900
 F 0 "#PWR027" H 5000 2650 50  0001 C CNN
@@ -879,7 +879,7 @@ F 3 "" H 5000 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R7
+L archive:Device_R_Small R7
 U 1 1 608447E5
 P 5250 1400
 F 0 "R7" H 5309 1446 50  0000 L CNN
@@ -891,7 +891,7 @@ F 4 "C25744" H 5250 1400 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR030
+L archive:power_+3.3V #PWR030
 U 1 1 608497F8
 P 5150 1200
 F 0 "#PWR030" H 5150 1050 50  0001 C CNN
@@ -902,7 +902,7 @@ F 3 "" H 5150 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C10
+L archive:Device_C_Small C10
 U 1 1 60858231
 P 5250 1600
 F 0 "C10" H 5342 1646 50  0000 L CNN
@@ -914,7 +914,7 @@ F 4 "C1525" H 5250 1600 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R12
+L archive:Device_R_Small R12
 U 1 1 608679E5
 P 5650 1500
 F 0 "R12" V 5454 1500 50  0000 C CNN
@@ -926,7 +926,7 @@ F 4 "C11702" H 5650 1500 50  0001 C CNN "LCSC Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J8
+L archive:Connector_Conn_01x03_Male J8
 U 1 1 6087C29C
 P 4700 2000
 F 0 "J8" H 4808 2281 50  0000 C CNN
@@ -956,7 +956,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 1500 5550 1500
 $Comp
-L Device:R_Small R8
+L archive:Device_R_Small R8
 U 1 1 608C8217
 P 5250 2000
 F 0 "R8" H 5309 2046 50  0000 L CNN
@@ -968,7 +968,7 @@ F 4 "C25744" H 5250 2000 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C11
+L archive:Device_C_Small C11
 U 1 1 608C821D
 P 5250 2200
 F 0 "C11" H 5342 2246 50  0000 L CNN
@@ -980,7 +980,7 @@ F 4 "C1525" H 5250 2200 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R13
+L archive:Device_R_Small R13
 U 1 1 608C8223
 P 5650 2100
 F 0 "R13" V 5454 2100 50  0000 C CNN
@@ -1019,7 +1019,7 @@ ENDSTOPX
 Text GLabel 5800 2100 2    50   Input ~ 0
 ENDSTOPY
 $Comp
-L Connector:Conn_01x02_Male J11
+L archive:Connector_Conn_01x02_Male J11
 U 1 1 60910DBA
 P 6750 1350
 F 0 "J11" H 6858 1531 50  0000 C CNN
@@ -1030,7 +1030,7 @@ F 3 "~" H 6750 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR033
+L archive:power_+24V #PWR033
 U 1 1 60916A8D
 P 7000 1250
 F 0 "#PWR033" H 7000 1100 50  0001 C CNN
@@ -1045,7 +1045,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 1250 7000 1350
 $Comp
-L Device:R_Small R14
+L archive:Device_R_Small R14
 U 1 1 60941614
 P 7500 1750
 F 0 "R14" H 7559 1796 50  0000 L CNN
@@ -1063,7 +1063,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 1900 7200 1850
 $Comp
-L Device:R_Small R17
+L archive:Device_R_Small R17
 U 1 1 6094D98D
 P 7700 1550
 F 0 "R17" V 7504 1550 50  0000 C CNN
@@ -1088,7 +1088,7 @@ Connection ~ 7200 1900
 Wire Wire Line
 	6950 1450 7200 1450
 $Comp
-L Connector:Conn_01x02_Male J12
+L archive:Connector_Conn_01x02_Male J12
 U 1 1 609AB5B1
 P 6750 2050
 F 0 "J12" H 6858 2231 50  0000 C CNN
@@ -1101,7 +1101,7 @@ $EndComp
 Wire Wire Line
 	6950 2050 7000 2050
 $Comp
-L Device:R_Small R15
+L archive:Device_R_Small R15
 U 1 1 609AB5C8
 P 7500 2450
 F 0 "R15" H 7559 2496 50  0000 L CNN
@@ -1119,7 +1119,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 2600 7200 2550
 $Comp
-L Device:R_Small R18
+L archive:Device_R_Small R18
 U 1 1 609AB5D1
 P 7700 2250
 F 0 "R18" V 7504 2250 50  0000 C CNN
@@ -1151,7 +1151,7 @@ Wire Wire Line
 Text Notes 6850 950  0    79   ~ 0
 MOSFET OUTPUTS
 $Comp
-L user:AO3400A U5
+L archive:user_AO3400A U5
 U 1 1 609D5CD9
 P 7250 1650
 F 0 "U5" H 7405 1696 50  0000 L CNN
@@ -1164,7 +1164,7 @@ F 4 "C344010" H 7250 1650 50  0001 C CNN "LCSC Part Number"
 $EndComp
 Connection ~ 7500 1650
 $Comp
-L user:AO3400A U6
+L archive:user_AO3400A U6
 U 1 1 609F29B5
 P 7250 2350
 F 0 "U6" H 7405 2396 50  0000 L CNN
@@ -1177,7 +1177,7 @@ F 4 "C344010" H 7250 2350 50  0001 C CNN "LCSC Part Number"
 $EndComp
 Connection ~ 7500 2350
 $Comp
-L Connector:Conn_01x02_Male J13
+L archive:Connector_Conn_01x02_Male J13
 U 1 1 60A0D66E
 P 6750 2750
 F 0 "J13" H 6858 2931 50  0000 C CNN
@@ -1188,7 +1188,7 @@ F 3 "~" H 6750 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R16
+L archive:Device_R_Small R16
 U 1 1 60A0D674
 P 7500 3150
 F 0 "R16" H 7559 3196 50  0000 L CNN
@@ -1206,7 +1206,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 3300 7200 3250
 $Comp
-L Device:R_Small R19
+L archive:Device_R_Small R19
 U 1 1 60A0D67D
 P 7700 2950
 F 0 "R19" V 7504 2950 50  0000 C CNN
@@ -1231,7 +1231,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 2600 7050 3300
 $Comp
-L power:GND #PWR034
+L archive:power_GND #PWR034
 U 1 1 60A0D68B
 P 7050 3300
 F 0 "#PWR034" H 7050 3050 50  0001 C CNN
@@ -1243,7 +1243,7 @@ F 3 "" H 7050 3300 50  0001 C CNN
 $EndComp
 Connection ~ 7050 3300
 $Comp
-L user:AO3400A U7
+L archive:user_AO3400A U7
 U 1 1 60A0D692
 P 7250 3050
 F 0 "U7" H 7405 3096 50  0000 L CNN
@@ -1262,7 +1262,7 @@ Wire Wire Line
 	7000 2750 6950 2750
 Connection ~ 7000 2050
 $Comp
-L user:TMC2209StepStick U2
+L archive:user_TMC2209StepStick U2
 U 1 1 60A867CB
 P 1700 1700
 F 0 "U2" H 1200 1150 50  0000 C CNN
@@ -1273,7 +1273,7 @@ F 3 "" H 1700 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR03
+L archive:power_+3.3V #PWR03
 U 1 1 60A87A87
 P 1100 1300
 F 0 "#PWR03" H 1100 1150 50  0001 C CNN
@@ -1308,7 +1308,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 2250 1750 2200
 $Comp
-L power:GND #PWR05
+L archive:power_GND #PWR05
 U 1 1 60AA6627
 P 1700 2250
 F 0 "#PWR05" H 1700 2000 50  0001 C CNN
@@ -1322,7 +1322,7 @@ Connection ~ 1700 2250
 Wire Wire Line
 	1700 2250 1750 2250
 $Comp
-L power:+3.3V #PWR06
+L archive:power_+3.3V #PWR06
 U 1 1 60AA66D1
 P 1750 1200
 F 0 "#PWR06" H 1750 1050 50  0001 C CNN
@@ -1333,7 +1333,7 @@ F 3 "" H 1750 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+24V #PWR011
+L archive:power_+24V #PWR011
 U 1 1 60AA7B72
 P 2300 950
 F 0 "#PWR011" H 2300 800 50  0001 C CNN
@@ -1348,7 +1348,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 1400 2300 1350
 $Comp
-L Connector:Conn_01x04_Male J2
+L archive:Connector_Conn_01x04_Male J2
 U 1 1 60ABC11B
 P 2550 1600
 F 0 "J2" H 2522 1574 50  0000 R CNN
@@ -1371,7 +1371,7 @@ INDEX
 Text GLabel 2200 2000 2    50   Input ~ 0
 DIAG
 $Comp
-L Device:C_Small C2
+L archive:Device_C_Small C2
 U 1 1 60AFA7E3
 P 2550 1350
 F 0 "C2" V 2321 1350 50  0000 C CNN
@@ -1386,7 +1386,7 @@ Wire Wire Line
 	2300 1350 2450 1350
 Connection ~ 2300 1350
 $Comp
-L power:GND #PWR013
+L archive:power_GND #PWR013
 U 1 1 60B0606B
 P 2800 1400
 F 0 "#PWR013" H 2800 1150 50  0001 C CNN
@@ -1415,7 +1415,7 @@ NRST
 Text GLabel 3900 1750 2    50   Input ~ 0
 BOOT0
 $Comp
-L Device:R_Small R21
+L archive:Device_R_Small R21
 U 1 1 60B65CE2
 P 8850 2100
 F 0 "R21" H 9050 2150 50  0000 R CNN
@@ -1427,7 +1427,7 @@ F 4 "C25744" H 8850 2100 50  0001 C CNN "LCSC Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR040
+L archive:power_GND #PWR040
 U 1 1 60B67BAB
 P 8850 2300
 F 0 "#PWR040" H 8850 2050 50  0001 C CNN
@@ -1447,7 +1447,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 2250 8900 2250
 $Comp
-L Device:R_Small R20
+L archive:Device_R_Small R20
 U 1 1 60B89404
 P 8850 1550
 F 0 "R20" H 9050 1600 50  0000 R CNN
@@ -1459,7 +1459,7 @@ F 4 "C25744" H 8850 1550 50  0001 C CNN "LCSC Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C17
+L archive:Device_C_Small C17
 U 1 1 60B8AB60
 P 9000 1850
 F 0 "C17" V 9050 1950 50  0000 C CNN
@@ -1490,7 +1490,7 @@ Wire Wire Line
 	8750 1750 8850 1750
 Connection ~ 8850 1750
 $Comp
-L power:+3.3V #PWR039
+L archive:power_+3.3V #PWR039
 U 1 1 60BDF0C9
 P 8850 1450
 F 0 "#PWR039" H 8850 1300 50  0001 C CNN
@@ -1501,7 +1501,7 @@ F 3 "" H 8850 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L archive:power_GND #PWR014
 U 1 1 60BDFA0C
 P 3000 1950
 F 0 "#PWR014" H 3000 1700 50  0001 C CNN
@@ -1518,7 +1518,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 1750 3300 1750
 $Comp
-L power:+3.3V #PWR017
+L archive:power_+3.3V #PWR017
 U 1 1 60C1E7AD
 P 3300 1700
 F 0 "#PWR017" H 3300 1550 50  0001 C CNN
@@ -1529,7 +1529,7 @@ F 3 "" H 3300 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J5
+L archive:Connector_Generic_Conn_02x03_Odd_Even J5
 U 1 1 60C1F211
 P 3600 1850
 F 0 "J5" H 3650 2167 50  0000 C CNN
@@ -1544,7 +1544,7 @@ Wire Wire Line
 Text Notes 1250 750  0    79   ~ 0
 STEPPER STICK
 $Comp
-L Connector:Conn_01x04_Male J10
+L archive:Connector_Conn_01x04_Male J10
 U 1 1 60C5428A
 P 5600 5350
 F 0 "J10" H 5572 5232 50  0000 R CNN
@@ -1561,7 +1561,7 @@ CANL
 Wire Wire Line
 	5250 5150 5400 5150
 $Comp
-L power:+24V #PWR025
+L archive:power_+24V #PWR025
 U 1 1 60CDB5D2
 P 5250 4750
 F 0 "#PWR025" H 5250 4600 50  0001 C CNN
@@ -1574,7 +1574,7 @@ $EndComp
 Wire Wire Line
 	5250 4750 5250 4800
 $Comp
-L power:PWR_FLAG #FLG01
+L archive:power_PWR_FLAG #FLG01
 U 1 1 60CE8E5A
 P 5250 4800
 F 0 "#FLG01" H 5250 4875 50  0001 C CNN
@@ -1592,7 +1592,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 5450 5250 5500
 $Comp
-L power:GND #PWR026
+L archive:power_GND #PWR026
 U 1 1 60CF6F0D
 P 5250 5550
 F 0 "#PWR026" H 5250 5300 50  0001 C CNN
@@ -1603,7 +1603,7 @@ F 3 "" H 5250 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L archive:power_PWR_FLAG #FLG02
 U 1 1 60CF7914
 P 5250 5500
 F 0 "#FLG02" H 5250 5575 50  0001 C CNN
@@ -1617,7 +1617,7 @@ Connection ~ 5250 5500
 Wire Wire Line
 	5250 5500 5250 5550
 $Comp
-L dk_Diodes-Rectifiers-Single:SS14 D2
+L archive:dk_Diodes-Rectifiers-Single_SS14 D2
 U 1 1 60D08363
 P 5250 4950
 F 0 "D2" V 5254 5038 50  0000 L CNN
@@ -1640,7 +1640,7 @@ $EndComp
 Text GLabel 8700 3050 0    50   Input ~ 0
 BOOT1
 $Comp
-L Device:R_Small R22
+L archive:Device_R_Small R22
 U 1 1 60D0C401
 P 8900 3150
 F 0 "R22" H 9100 3200 50  0000 R CNN
@@ -1652,7 +1652,7 @@ F 4 "C25744" H 8900 3150 50  0001 C CNN "LCSC Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR038
+L archive:power_GND #PWR038
 U 1 1 60D0C407
 P 8900 3250
 F 0 "#PWR038" H 8900 3000 50  0001 C CNN
@@ -1674,7 +1674,7 @@ MOSFET OUTPUTS
 Wire Wire Line
 	6050 6750 6050 6700
 $Comp
-L power:PWR_FLAG #FLG0101
+L archive:power_PWR_FLAG #FLG0101
 U 1 1 60D8249A
 P 6050 6750
 F 0 "#FLG0101" H 6050 6825 50  0001 C CNN
@@ -1690,7 +1690,7 @@ Connection ~ 5850 6750
 Wire Wire Line
 	5850 6750 6050 6750
 $Comp
-L power:PWR_FLAG #FLG0102
+L archive:power_PWR_FLAG #FLG0102
 U 1 1 60D9EE24
 P 1700 4300
 F 0 "#FLG0102" H 1700 4375 50  0001 C CNN
@@ -1705,7 +1705,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 4450 1800 4450
 $Comp
-L Device:L_Small L2
+L archive:Device_L_Small L2
 U 1 1 60DB8C85
 P 9800 5800
 F 0 "L2" V 9985 5800 50  0000 C CNN
@@ -1717,7 +1717,7 @@ F 4 "C1017" H 9800 5800 50  0001 C CNN "LCSC Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VDDA #PWR046
+L archive:power_VDDA #PWR046
 U 1 1 60DBA40A
 P 10350 5750
 F 0 "#PWR046" H 10350 5600 50  0001 C CNN
@@ -1730,7 +1730,7 @@ $EndComp
 Wire Wire Line
 	9900 5800 9950 5800
 $Comp
-L power:+3.3V #PWR044
+L archive:power_+3.3V #PWR044
 U 1 1 60DC7CAE
 P 9550 5750
 F 0 "#PWR044" H 9550 5600 50  0001 C CNN
@@ -1745,7 +1745,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 5800 9700 5800
 $Comp
-L Device:C_Small C19
+L archive:Device_C_Small C19
 U 1 1 60DD648C
 P 9950 5950
 F 0 "C19" H 10042 5996 50  0000 L CNN
@@ -1757,7 +1757,7 @@ F 4 "C15195" H 9950 5950 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR045
+L archive:power_GND #PWR045
 U 1 1 60DD7829
 P 9550 6200
 F 0 "#PWR045" H 9550 5950 50  0001 C CNN
@@ -1771,7 +1771,7 @@ Wire Wire Line
 	9950 5850 9950 5800
 Connection ~ 9950 5800
 $Comp
-L power:PWR_FLAG #FLG03
+L archive:power_PWR_FLAG #FLG03
 U 1 1 60DE50DB
 P 10450 5800
 F 0 "#FLG03" H 10450 5875 50  0001 C CNN
@@ -1784,7 +1784,7 @@ $EndComp
 Text Notes 9450 5400 0    79   ~ 0
 VDDA FILTERING
 $Comp
-L Device:Crystal Y1
+L archive:Device_Crystal Y1
 U 1 1 60DF34F0
 P 8550 5800
 F 0 "Y1" H 8550 6068 50  0000 C CNN
@@ -1796,7 +1796,7 @@ F 4 "C115962" H 8550 5800 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C18
+L archive:Device_C_Small C18
 U 1 1 60DF4447
 P 8750 5950
 F 0 "C18" H 8842 5996 50  0000 L CNN
@@ -1808,7 +1808,7 @@ F 4 "C1547" H 8750 5950 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C16
+L archive:Device_C_Small C16
 U 1 1 60DF4A76
 P 8350 5950
 F 0 "C16" H 8050 6000 50  0000 L CNN
@@ -1820,7 +1820,7 @@ F 4 "C1547" H 8350 5950 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR037
+L archive:power_GND #PWR037
 U 1 1 60DF6659
 P 8550 6100
 F 0 "#PWR037" H 8550 5850 50  0001 C CNN
@@ -1856,7 +1856,7 @@ XTAL
 Wire Wire Line
 	7800 2950 7900 2950
 $Comp
-L Device:LED_Small D5
+L archive:Device_LED_Small D5
 U 1 1 60E58AB5
 P 6950 4750
 F 0 "D5" V 6904 4848 50  0000 L CNN
@@ -1868,7 +1868,7 @@ F 4 "C2286" H 6950 4750 50  0001 C CNN "LCSC Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED_Small D6
+L archive:Device_LED_Small D6
 U 1 1 60E5926C
 P 7450 4750
 F 0 "D6" V 7404 4848 50  0000 L CNN
@@ -1880,7 +1880,7 @@ F 4 "C72043" H 7450 4750 50  0001 C CNN "LCSC Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR048
+L archive:power_+3.3V #PWR048
 U 1 1 60E824CC
 P 7450 4650
 F 0 "#PWR048" H 7450 4500 50  0001 C CNN
@@ -1891,7 +1891,7 @@ F 3 "" H 7450 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R23
+L archive:Device_R_Small R23
 U 1 1 60EAD13F
 P 6950 4950
 F 0 "R23" H 7009 4996 50  0000 L CNN
@@ -1903,7 +1903,7 @@ F 4 "C11702" H 6950 4950 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R24
+L archive:Device_R_Small R24
 U 1 1 60EAD309
 P 7450 4950
 F 0 "R24" H 7509 4996 50  0000 L CNN
@@ -1921,7 +1921,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 5150 7450 5050
 $Comp
-L power:GND #PWR047
+L archive:power_GND #PWR047
 U 1 1 60EBC2A9
 P 7200 5150
 F 0 "#PWR047" H 7200 4900 50  0001 C CNN
@@ -1946,7 +1946,7 @@ FAN1
 Text GLabel 10550 3650 2    50   Input ~ 0
 HEAT
 $Comp
-L Mechanical:MountingHole H1
+L archive:Mechanical_MountingHole H1
 U 1 1 6077430E
 P 7100 6650
 F 0 "H1" H 7200 6650 50  0000 L CNN
@@ -1957,7 +1957,7 @@ F 3 "~" H 7100 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L archive:Mechanical_MountingHole H2
 U 1 1 60774ADF
 P 7100 6850
 F 0 "H2" H 7200 6850 50  0000 L CNN
@@ -1968,7 +1968,7 @@ F 3 "~" H 7100 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L archive:Mechanical_MountingHole H3
 U 1 1 607750B0
 P 7400 6650
 F 0 "H3" H 7500 6650 50  0000 L CNN
@@ -1979,7 +1979,7 @@ F 3 "~" H 7400 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L archive:Mechanical_MountingHole H4
 U 1 1 60775404
 P 7400 6850
 F 0 "H4" H 7500 6850 50  0000 L CNN
@@ -1992,7 +1992,7 @@ $EndComp
 Text Label 4700 6750 0    50   ~ 0
 SWITCH
 $Comp
-L Diode:BAT42W-V D4
+L archive:Diode_BAT42W-V D4
 U 1 1 6074565C
 P 5200 2700
 F 0 "D4" H 5200 2917 50  0000 C CNN
@@ -2004,7 +2004,7 @@ F 4 "C8598" H 5200 2700 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Motion-Sensors-Accelerometers:ADXL345BCCZ U9
+L archive:dk_Motion-Sensors-Accelerometers_ADXL345BCCZ U9
 U 1 1 608AD2BD
 P 3150 3200
 F 0 "U9" H 3894 3203 60  0000 L CNN
@@ -2025,7 +2025,7 @@ F 13 "C9667" H 3150 3200 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_ST_STM32F0:STM32F072CBUx U8
+L archive:MCU_ST_STM32F0_STM32F072CBUx U8
 U 1 1 606F116F
 P 9950 3050
 F 0 "U8" H 9300 4650 50  0000 C CNN
@@ -2054,7 +2054,7 @@ A_SCK
 NoConn ~ 3150 3900
 NoConn ~ 3150 2600
 $Comp
-L power:+3.3V #PWR0101
+L archive:power_+3.3V #PWR0101
 U 1 1 60A4527F
 P 3400 2500
 F 0 "#PWR0101" H 3400 2350 50  0001 C CNN
@@ -2083,7 +2083,7 @@ Connection ~ 3350 3950
 Wire Wire Line
 	3350 3950 3450 3950
 $Comp
-L power:GND #PWR0102
+L archive:power_GND #PWR0102
 U 1 1 60AE6A34
 P 3350 3950
 F 0 "#PWR0102" H 3350 3700 50  0001 C CNN
@@ -2102,7 +2102,7 @@ NoConn ~ 3850 3100
 Wire Wire Line
 	4900 7450 5350 7450
 $Comp
-L Device:R_Small R25
+L archive:Device_R_Small R25
 U 1 1 60B6A452
 P 5350 7300
 F 0 "R25" H 5409 7346 50  0000 L CNN
@@ -2122,7 +2122,7 @@ Connection ~ 5350 7450
 Wire Wire Line
 	5350 7450 5650 7450
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
+L archive:Connector_USB_C_Receptacle_USB2.0 J1
 U 1 1 6075271E
 P 1100 5050
 F 0 "J1" H 1207 5917 50  0000 C CNN
@@ -2134,7 +2134,7 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 50
 $EndComp
 Connection ~ 1700 4450
 $Comp
-L Device:R_Small R26
+L archive:Device_R_Small R26
 U 1 1 60ACB7E3
 P 4150 5150
 F 0 "R26" H 4209 5196 50  0000 L CNN
@@ -2169,7 +2169,7 @@ Wire Wire Line
 Connection ~ 4150 5250
 Connection ~ 5000 2300
 $Comp
-L Device:R_Small R27
+L archive:Device_R_Small R27
 U 1 1 60C952C7
 P 5450 2600
 F 0 "R27" H 5509 2646 50  0000 L CNN
@@ -2181,7 +2181,7 @@ F 4 "C25744" H 5450 2600 50  0001 C CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C20
+L archive:Device_C_Small C20
 U 1 1 60C952CE
 P 5450 2800
 F 0 "C20" H 5542 2846 50  0000 L CNN
@@ -2196,7 +2196,7 @@ Connection ~ 5450 2700
 Wire Wire Line
 	5450 2700 5750 2700
 $Comp
-L Device:R_Small R28
+L archive:Device_R_Small R28
 U 1 1 60CC5737
 P 5850 2700
 F 0 "R28" V 5654 2700 50  0000 C CNN
@@ -2245,7 +2245,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 950  2300 1000
 $Comp
-L Device:C_Small C21
+L archive:Device_C_Small C21
 U 1 1 60EA910E
 P 2550 1000
 F 0 "C21" V 2321 1000 50  0000 C CNN
@@ -2267,7 +2267,7 @@ Wire Wire Line
 	2800 1000 2800 1350
 Connection ~ 2800 1350
 $Comp
-L power:GND #PWR0103
+L archive:power_GND #PWR0103
 U 1 1 60F1EBBE
 P 10450 1300
 F 0 "#PWR0103" H 10450 1050 50  0001 C CNN
@@ -2282,7 +2282,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 1200 10150 1550
 $Comp
-L Device:C_Small C22
+L archive:Device_C_Small C22
 U 1 1 60F76C46
 P 10350 1200
 F 0 "C22" V 10121 1200 50  0000 C CNN
@@ -2297,7 +2297,7 @@ Wire Wire Line
 	10250 1200 10150 1200
 Connection ~ 10150 1200
 $Comp
-L Device:C_Small C23
+L archive:Device_C_Small C23
 U 1 1 60FAE33F
 P 10350 5950
 F 0 "C23" H 10442 5996 50  0000 L CNN
@@ -2325,7 +2325,7 @@ Connection ~ 10350 5800
 Wire Wire Line
 	9950 5800 10350 5800
 $Comp
-L power:GNDA #PWR0104
+L archive:power_GNDA #PWR0104
 U 1 1 6100893F
 P 10150 4800
 F 0 "#PWR0104" H 10150 4550 50  0001 C CNN
@@ -2338,7 +2338,7 @@ $EndComp
 Wire Wire Line
 	10150 4800 10150 4550
 $Comp
-L power:GNDA #PWR0105
+L archive:power_GNDA #PWR0105
 U 1 1 6101AF31
 P 10350 6200
 F 0 "#PWR0105" H 10350 5950 50  0001 C CNN
@@ -2358,7 +2358,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 6150 9550 6200
 $Comp
-L power:PWR_FLAG #FLG0103
+L archive:power_PWR_FLAG #FLG0103
 U 1 1 6105536D
 P 10450 6150
 F 0 "#FLG0103" H 10450 6225 50  0001 C CNN
@@ -2371,7 +2371,7 @@ $EndComp
 Wire Wire Line
 	10450 6150 10350 6150
 $Comp
-L Device:L_Small L3
+L archive:Device_L_Small L3
 U 1 1 6102F54D
 P 9800 6150
 F 0 "L3" V 9985 6150 50  0000 C CNN
@@ -2383,7 +2383,7 @@ F 4 "" H 9800 6150 50  0001 C CNN "LCSC Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDA #PWR0106
+L archive:power_GNDA #PWR0106
 U 1 1 6112318C
 P 5100 4200
 F 0 "#PWR0106" H 5100 3950 50  0001 C CNN
