@@ -80,6 +80,7 @@ The TurboCAN board is actually not only useful as a toolhead board, here are som
 * Improved filtering of analog power domain to reduce ADC noise.
 * Replaced the heater mosfet with a more powerful AON7400A.
 * Replaced the +3.3V connection to MS1 with an unpopulated resistor to give the board UART address 0 by default.
+* Added optional pullup resistors to MS2/SPREAD to support standalone mode for the step stick.
 
 ## Errata
 
@@ -100,7 +101,16 @@ The TurboCAN board is actually not only useful as a toolhead board, here are som
 * Thermistor readings are noisy (fluctuating 2-3C) with a PT1000 sensor
   * Workaround: Use a B3950 or replace the pullup resistor with a 1k 0.5%
 
+## Developer Info
 
+### Generating fabrication outputs for JLCPCB
+
+1. Export Gerbers and drill file from pcbnew, make a zip file out of these.
+2. Generate a BOM csv using `bom_csv_jlcpcb.py` from [kicad-jlcpcb-bom-plugin].
+3. Generate a CPL file from pcbnew.
+4. Convert the CPL file to JLCPCB format using  using `kicad_pos_to_cpl.py` from [kicad-jlcpcb-bom-plugin].
+
+[kicad-jlcpcb-bom-plugin]: https://github.com/wokwi/kicad-jlcpcb-bom-plugin
 ## Attribution
 
 Although this was designed from scratch, it was inspired by the [Huvud] board made by Pontus Borg.
