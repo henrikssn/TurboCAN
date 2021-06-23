@@ -79,6 +79,7 @@ The TurboCAN board is actually not only useful as a toolhead board, here are som
 * Thermistor resistor is now in 0805 package (was 0402) to simplify replacement to 1k (for PT1000 sensor).
 * Improved filtering of analog power domain to reduce ADC noise.
 * Replaced the heater mosfet with a more powerful AON7400A.
+* Replaced the +3.3V connection to MS1 with an unpopulated resistor to give the board UART address 0 by default.
 
 ## Errata
 

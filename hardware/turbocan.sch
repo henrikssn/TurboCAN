@@ -1260,21 +1260,6 @@ F 3 "" H 1700 2450 50  0001 C CNN
 	1    1700 1700
 	1    0    0    -1
 $EndComp
-$Comp
-L archive:power_+3.3V #PWR03
-U 1 1 60A87A87
-P 1100 1300
-F 0 "#PWR03" H 1100 1150 50  0001 C CNN
-F 1 "+3.3V" H 1115 1473 50  0000 C CNN
-F 2 "" H 1100 1300 50  0001 C CNN
-F 3 "" H 1100 1300 50  0001 C CNN
-	1    1100 1300
-	1    0    0    -1
-$EndComp
-Wire Wire Line
-	1100 1300 1100 1400
-Wire Wire Line
-	1100 1400 1150 1400
 Text GLabel 1150 2000 0    50   Input ~ 0
 INT2
 Text GLabel 1150 1600 0    50   Input ~ 0
@@ -2393,4 +2378,31 @@ F 4 "C85734" H 7305 3141 50  0001 L CNN "LCSC"
 	1    7200 3550
 	-1   0    0    1
 $EndComp
+$Comp
+L archive:Device_R_Small R29
+U 1 1 60DB8C14
+P 1050 1200
+F 0 "R29" H 1109 1246 50  0000 L CNN
+F 1 "DNP" H 1109 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1050 1200 50  0001 C CNN
+F 3 "~" H 1050 1200 50  0001 C CNN
+F 4 "" H 1050 1200 50  0001 C CNN "LCSC Part Number"
+	1    1050 1200
+	1    0    0    -1
+$EndComp
+$Comp
+L archive:power_+3.3V #PWR03
+U 1 1 60DB9116
+P 1050 1100
+F 0 "#PWR03" H 1050 950 50  0001 C CNN
+F 1 "+3.3V" V 1050 1350 50  0000 C CNN
+F 2 "" H 1050 1100 50  0001 C CNN
+F 3 "" H 1050 1100 50  0001 C CNN
+	1    1050 1100
+	1    0    0    -1
+$EndComp
+Wire Wire Line
+	1050 1300 1050 1400
+Wire Wire Line
+	1050 1400 1150 1400
 $EndSCHEMATC
