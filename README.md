@@ -78,7 +78,7 @@ The TurboCAN board is actually not only useful as a toolhead board, here are som
 * Added 100uF bulk capacitor for 24V to mitigate voltage fluctuations due to long cables.
 * Thermistor resistor is now in 0805 package (was 0402) to simplify replacement to 1k (for PT1000 sensor).
 * Improved filtering of analog power domain to reduce ADC noise.
-* Replaced the heater mosfet with a more powerful AON3400A.
+* Replaced the heater mosfet with a more powerful AON7400A.
 
 ## Errata
 
