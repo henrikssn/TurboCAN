@@ -1,47 +1,49 @@
 Comment,Designator,Footprint,LCSC Part #
-"10uF Unpolarized capacitor, small symbol","C1,C5",C_0805_2012Metric,C15850
-"100nF Unpolarized capacitor, small symbol","C2,C3,C4,C9,C10,C11,C12,C17,C20,C22",C_0402_1005Metric,C1525
-"10nF Unpolarized capacitor, small symbol","C6,C19",C_0402_1005Metric,C15195
-"1nF Unpolarized capacitor, small symbol",C7,C_0402_1005Metric,C1523
-"6.8nF Unpolarized capacitor, small symbol",C8,C_0402_1005Metric,C1542
-"22uF Unpolarized capacitor, small symbol","C13,C14,C15",C_0805_2012Metric,C45783
-"12pF Unpolarized capacitor, small symbol","C16,C18",C_0402_1005Metric,C1547
-"100uF Unpolarized capacitor, small symbol",C21,CP_Elec_8x10,C59944
-"1uF Unpolarized capacitor, small symbol",C23,C_0402_1005Metric,C52923
-"BAT42W-V 30V 0.2A Small Signal Schottky diode, SOD-123",D1,D_SOD-123,C8598
-SS54 DIODE SCHOTTKY 40V 1A SMA,"D2,D3",DO-214AC,C22452
-"BAT42W 30V 0.2A Small Signal Schottky diode, SOD-123",D4,D_SOD-123,C8598
-"LED_Red Light emitting diode, small symbol",D5,LED_0603_1608Metric,C2286
-"LED_Green Light emitting diode, small symbol",D6,LED_0603_1608Metric,C72043
-MountingHole Mounting Hole without connection,"H1,H2,H3,H4",MountingHole_3.2mm_M3_DIN965_Pad,
-USB_C_Receptacle_USB2.0 USB 2.0-only Type-C Receptacle connector,J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,
-"STEPPER Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",J2,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,
-"DEBUG Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",J5,PinHeader_2x03_P2.54mm_Vertical,
-"ENDSTOPX Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",J7,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
-"ENDSTOPY Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",J8,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
-"TH0 Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J9,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,
-"CAN_PORT Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",J10,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,
-"FAN0 Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J11,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,
-"FAN1 Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J12,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,
-"HEAT Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J13,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,
-"PROBE Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",J14,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
-"10uH Inductor, small symbol",L1,L_SMD_7.3x6.8,C132141
-"Ferrite bead Inductor, small symbol","L2,L3",L_0805_2012Metric,C1017
-"5.1k Resistor, small symbol","R1,R2",R_0402_1005Metric,C25905
-"1k Resistor, small symbol","R3,R12,R13,R23,R24,R28",R_0402_1005Metric,C11702
-"330k Resistor, small symbol",R4,R_0402_1005Metric,C25778
-"68k Resistor, small symbol","R5,R6",R_0402_1005Metric,C36871
-"10k Resistor, small symbol","R7,R8,R10,R14,R15,R16,R20,R21,R22,R27",R_0402_1005Metric,C25744
-"4.7k Resistor, small symbol",R9,R_0805_2012Metric,C17673
-"1.2k Resistor, small symbol",R11,R_0402_1005Metric,C25862
-"100 Resistor, small symbol","R17,R18,R19",R_0402_1005Metric,C25076
-"680 Resistor, small symbol",R25,R_0402_1005Metric,C25130
-"120Ohm Resistor, small symbol",R26,R_0805_2012Metric,C17437
-"AP2127N-3.3 300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23 package",U1,SOT-23,C5446
+10uF ,"C1,C5",C_0805_2012Metric,C15850
+100nF ,"C2,C3,C4,C9,C10,C11,C12,C17,C20,C22",C_0402_1005Metric,C1525
+10nF ,"C6,C19",C_0402_1005Metric,C15195
+1nF ,C7,C_0402_1005Metric,C1523
+1pF ,C8,C_0402_1005Metric,C1550
+22uF ,"C13,C14,C15",C_0805_2012Metric,C45783
+12pF ,"C16,C18",C_0402_1005Metric,C1547
+100uF ,C21,CP_Elec_8x10,C59944
+1uF ,C23,C_0402_1005Metric,C52923
+BAT42W-V ,D1,D_SOD-123,C8598
+SS54 ,"D2,D3",DO-214AC,C22452
+BAT42W ,D4,D_SOD-123,C8598
+LED_Red ,D5,LED_0603_1608Metric,C2286
+LED_Green ,D6,LED_0603_1608Metric,C72043
+MountingHole ,"H1,H2,H3,H4",MountingHole_3.2mm_M3_DIN965_Pad,
+USB_C_Receptacle_USB2.0 ,J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,
+STEPPER ,J2,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,
+DEBUG ,J5,PinHeader_2x03_P2.54mm_Vertical,
+ENDSTOPX ,J7,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+ENDSTOPY ,J8,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+TH0 ,J9,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,
+CAN_PORT ,J10,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,
+FAN0 ,J11,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,
+FAN1 ,J12,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,
+HEAT ,J13,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,
+PROBE ,J14,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+6.8uH ,L1,L_SMD_7.3x6.8,C207841
+Ferrite bead ,"L2,L3",L_0805_2012Metric,C1017
+5.1k ,"R1,R2",R_0402_1005Metric,C25905
+1k ,"R3,R12,R13,R23,R24,R28",R_0402_1005Metric,C11702
+330k ,R4,R_0402_1005Metric,C25778
+68k ,"R5,R6",R_0402_1005Metric,C36871
+10k ,"R7,R8,R10,R14,R15,R16,R20,R21,R22,R27",R_0402_1005Metric,C25744
+4.7k ,R9,R_0805_2012Metric,C17673
+1.2k ,R11,R_0402_1005Metric,C25862
+100 ,"R17,R18,R19",R_0402_1005Metric,C25076
+680 ,R25,R_0402_1005Metric,C25130
+120Ohm ,R26,R_0805_2012Metric,C17437
+DNP ,"R29,R30,R31",R_0402_1005Metric,
+AP2127N-3.3 ,U1,SOT-23,C5446
 TMC2209StepStick ,U2,TMC2209StepStick,
-"SN65HVD230 CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8",U3,SOIC-8_3.9x4.9mm_P1.27mm,C12084
+SN65HVD230 ,U3,SOIC-8_3.9x4.9mm_P1.27mm,C12084
 TPS54331 ,U4,SOIC-8_3.9x4.9mm_P1.27mm,C9865
-"AO3400A MOSFET N TRENCH 30V 5.8A 1.4V @ 250UA 32 MΩ @ 5.8A,10V SOT-23 ROHSMOSFET N TRENCH 30V 5.8A 1.4V @ 250UA 32mO @ 5.8A,10V SOT-23 ROHSMOSFET N TRENCH 30V 5.8A 1.4V @ 250UA 32 MΩ @ 5.8A,10V SOT-23 ROHSMOSFET N TRENCH 30V 5.8A 1.4V @ 250UA 32 MΩ @ 5.8A,10V SOT-23 ROHSMOSFET N TRENCH 30V 5.8A 1.4V @ 250UA 32 MΩ @ 5.8A,10V SOT-23 ROHS","U5,U6,U7",SOT-23,C344010
-"STM32F072CBUx ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, UFQFPN-48",U8,QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm,C92504
-ADXL345BCCZ ACCEL 2-16G I2C/SPI 14LGA,U9,LGA-14_3x5mm_RevA,C9667
-Crystal Two pin crystal,Y1,Crystal_SMD_5032-2Pin_5.0x3.2mm,C115962
+AO3400A ,"U5,U6",SOT-23,C344010
+AON7400A ,U7,DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm,
+STM32F072CBUx ,U8,QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm,C92504
+ADXL345BCCZ ,U9,LGA-14_3x5mm_RevA,C9667
+Crystal ,Y1,Crystal_SMD_5032-2Pin_5.0x3.2mm,C115962
