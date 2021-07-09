@@ -1242,7 +1242,6 @@ F 3 "" H 7050 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7050 3300
-Connection ~ 7500 3050
 Connection ~ 7050 2600
 Wire Wire Line
 	7000 2050 7000 2750
@@ -2367,18 +2366,6 @@ F 3 "" H 5100 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L archive:AON7400A U7
-U 1 1 60D4C162
-P 7200 3550
-F 0 "U7" H 7305 3004 50  0000 L CNN
-F 1 "AON7400A" H 7305 3095 50  0000 L CNN
-F 2 "turbocan:DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm" H 7200 3550 50  0001 C CNN
-F 3 "" H 7200 3550 50  0001 C CNN
-F 4 "C85734" H 7305 3141 50  0001 L CNN "LCSC"
-	1    7200 3550
-	-1   0    0    1   
-$EndComp
-$Comp
 L archive:Device_R_Small R29
 U 1 1 60DB8C14
 P 1050 1200
@@ -2465,4 +2452,17 @@ F 4 "" H 950 1200 50  0001 C CNN "LCSC Part Number"
 	1    950  1200
 	1    0    0    -1  
 $EndComp
+$Comp
+L archive:AON7400A U7
+U 1 1 60D4C162
+P 7200 2550
+F 0 "U7" H 7305 2096 50  0000 L CNN
+F 1 "AON7400A" H 7305 2005 50  0000 L CNN
+F 2 "turbocan:DFN-8-1EP_3x3mm_P0.65mm_EP1.7x2.05mm_Thermal_Pad" H 7200 2550 50  0001 C CNN
+F 3 "" H 7200 2550 50  0001 C CNN
+F 4 "C85734" H 7305 2141 50  0001 L CNN "LCSC"
+	1    7200 2550
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7500 3050
 $EndSCHEMATC
